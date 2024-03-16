@@ -1,4 +1,4 @@
-# Data-Pipeline-with-Airflow-and-S3# Data Pipeline with Airflow and S3
+# Data Pipeline with Airflow and S3
 
 ## Objective
 The objective of this project is to automate the process of downloading a dataset from Kaggle, performing any necessary data transformations, and uploading the processed dataset to Amazon S3. This entire process will be orchestrated and scheduled using Apache Airflow.
@@ -12,7 +12,7 @@ The objective of this project is to automate the process of downloading a datase
 3. **Upload to S3:** Task to upload the processed dataset to Amazon S3 using Boto3.
 
 ## Usage
-1. Clone the repository: `git clone https://github.com/your-repo.git`
+1. Clone the repository: `git clone [https://github.com/your-repo.git](https://github.com/Sampath005/Data-Pipeline-with-Airflow-and-S3.git)`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up your Kaggle API credentials and AWS credentials (if not already done).
 4. Update the Airflow DAG (`pipeline.py`) with your specific dataset and S3 bucket details.
